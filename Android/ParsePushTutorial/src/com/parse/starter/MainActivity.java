@@ -13,10 +13,10 @@ import com.parse.ParsePush;
 import com.parse.SaveCallback;
 
 public class MainActivity extends Activity {
-	/** Called when the activity is first created. */
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+    /** Called when the activity is first created. */
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
         //get Textview
         final TextView channelList = (TextView) findViewById(R.id.channel_list);
@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
                 push.sendInBackground();
             }
         });
-	}
+    }
 
     public boolean ifSubscribed(){
         //check if device is already subscribed to Giants channel
@@ -80,3 +80,4 @@ public class MainActivity extends Activity {
         }
     }
 }
+
