@@ -6,8 +6,9 @@ This project is a simple demonstration of using Push Notifications with Parse.
 How to Run - Android
 ----------------
 
-1. Clone the repository and open the project at Android/.
-2. Add your Parse application id and client key in `strings.xml` (under values/).
+1. Clone the repository.
+2. Import the project into Android Studio by selecting the Android/ directory.
+3. Add your Parse application id and client key in `strings.xml` (under values/).
 
 How to Run - iOS
 ----------------
