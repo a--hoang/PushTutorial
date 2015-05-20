@@ -7,7 +7,7 @@ How to Run - Android
 ----------------
 
 1. Clone the repository and open the project at Android/.
-2. Add your Parse application id and client key in `Application.java`.
+2. Add your Parse application id and client key in `strings.xml` (under values/).
 
 How to Run - iOS
 ----------------
